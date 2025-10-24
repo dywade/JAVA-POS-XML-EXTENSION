@@ -1227,36 +1227,190 @@
     "v-data:style:normal:": {
         "prefix": "vdstn",
         "body": [
-            "v-data:v-data:style:normal:$1=\"{$2}\""
+            "v-data:style:normal:$1=\"{$2}\""
         ],
         "description": "v-data:style:normal:[style name]"
     },
     "v-data:style:pressed:": {
         "prefix": "vdstp",
         "body": [
-            "v-data:v-data:style:pressed:$1=\"{$2}\""
+            "v-data:style:pressed:$1=\"{$2}\""
         ],
         "description": "v-data:style:pressed:[style name]"
     },
     "v-data:style:over:": {
         "prefix": "vdsto",
         "body": [
-            "v-data:v-data:style:over:$1=\"{$2}\""
+            "v-data:style:over:$1=\"{$2}\""
         ],
         "description": "v-data:style:over:[style name]"
     },
     "v-data:style:disable:": {
         "prefix": "vdstd",
         "body": [
-            "v-data:v-data:style:disable:$1=\"{$2}\""
+            "v-data:style:disable:$1=\"{$2}\""
         ],
         "description": "v-data:style:disable:[style name]"
     },
     "v-data:style:focused:": {
         "prefix": "vdstf",
         "body": [
-            "v-data:v-data:style:focused:$1=\"{$2}\""
+            "v-data:style:focused:$1=\"{$2}\""
         ],
         "description": "v-data:style:focused:[style name]"
+    },
+    "style": {
+        "prefix": "style",
+        "body": [
+            "style:"
+        ],
+        "description": "style"
+    },
+    "v-data": {
+        "prefix": "v-data",
+        "body": [
+            "v-data:"
+        ],
+        "description": "v-data"
+    },
+    "v-on": {
+        "prefix": "v-on",
+        "body": [
+            "v-on:"
+        ],
+        "description": "v-on"
+    },
+    "style:normal": {
+        "prefix": "style:normal",
+        "body": [
+            "style:normal:"
+        ],
+        "description": "style:normal"
+    },
+    "style:pressed": {
+        "prefix": "style:pressed",
+        "body": [
+            "style:pressed:"
+        ],
+        "description": "style:pressed"
+    },
+    "style:focused": {
+        "prefix": "style:focused",
+        "body": [
+            "style:focused:"
+        ],
+        "description": "style:focused"
+    },
+    "view": {
+        "prefix": "view",
+        "body": [
+            "<view>$1</view>"
+        ],
+        "description": "view"
+    },
+    "label": {
+        "prefix": "label",
+        "body": [
+            "<label>$1</label>"
+        ],
+        "description": "label"
+    },
+    "image": {
+        "prefix": "image",
+        "body": [
+            "<image>$1</image>"
+        ],
+        "description": "image"
+    },
+    "image_animation": {
+        "prefix": "image_animation",
+        "body": [
+            "<image_animation>$1</image_animation>"
+        ],
+        "description": "image_animation"
+    },
+    "edit": {
+        "prefix": "edit",
+        "body": [
+            "<edit>$1</edit>"
+        ],
+        "description": "edit"
+    },
+    "scroll_view": {
+        "prefix": "scroll_view",
+        "body": [
+            "<scroll_view>$1</scroll_view>"
+        ],
+        "description": "scroll_view"
+    },
+    "list_view": {
+        "prefix": "list_view",
+        "body": [
+            "<list_view>$1</list_view>"
+        ],
+        "description": "list_view"
+    },
+    "list_item": {
+        "prefix": "list_item",
+        "body": [
+            "<list_item>$1</list_item>"
+        ],
+        "description": "list_item"
+    },
+    "scroll_bar_m": {
+        "prefix": "scroll_bar_m",
+        "body": [
+            "<scroll_bar_m>$1</scroll_bar_m>"
+        ],
+        "description": "scroll_bar_m"
+    },
+    "scroll_bar_d": {
+        "prefix": "scroll_bar_d",
+        "body": [
+            "<scroll_bar_d>$1</scroll_bar_d>"
+        ],
+        "description": "scroll_bar_d"
+    },
+    "check_button": {
+        "prefix": "check_button",
+        "body": [
+            "<check_button>$1</check_button>"
+        ],
+        "description": "check_button"
+    },
+    "pages": {
+        "prefix": "pages",
+        "body": [
+            "<pages>$1</pages>"
+        ],
+        "description": "pages"
+    },
+    "grid": {
+        "prefix": "grid",
+        "body": [
+            "<grid>$1</grid>"
+        ],
+        "description": "grid"
+    },
+    "radio_button": {
+        "prefix": "radio_button",
+        "body": [
+            "<radio_button>$1</radio_button>"
+        ],
+        "description": "radio_button"
+    },
+    "window": {
+        "prefix": "window",
+        "body": [
+            "<window>$1</window>"
+        ],
+        "description": "window"
+    },
+    "button": {
+        "prefix": "button",
+        "body": [
+            "<button>$1</button>"
+        ],
+        "description": "button"
     }
 }
