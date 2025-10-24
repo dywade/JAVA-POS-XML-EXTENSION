@@ -1,0 +1,1262 @@
+{
+    "style:normal:border": {
+        "prefix": "stnb",
+        "body": [
+            "style:normal:border=\"$1\""
+        ],
+        "description": "style:normal:border"
+    },
+    "style:normal:border_color": {
+        "prefix": "stnbc",
+        "body": [
+            "style:normal:border_color=\"$1\""
+        ],
+        "description": "style:normal:border_color"
+    },
+    "style:normal:font_size": {
+        "prefix": "stnfs",
+        "body": [
+            "style:normal:font_size=\"$1\""
+        ],
+        "description": "style:normal:font_size"
+    },
+    "style:normal:y_offset": {
+        "prefix": "stnyo",
+        "body": [
+            "style:normal:y_offset=\"$1\""
+        ],
+        "description": "style:normal:y_offset"
+    },
+    "style:normal:x_offset": {
+        "prefix": "stnxo",
+        "body": [
+            "style:normal:x_offset=\"$1\""
+        ],
+        "description": "style:normal:x_offset"
+    },
+    "style:normal:margin_right": {
+        "prefix": "stnmr",
+        "body": [
+            "style:normal:margin_right=\"$1\""
+        ],
+        "description": "style:normal:margin_right"
+    },
+    "style:normal:margin_left": {
+        "prefix": "stnml",
+        "body": [
+            "style:normal:margin_left=\"$1\""
+        ],
+        "description": "style:normal:margin_left"
+    },
+    "style:normal:margin_bottom": {
+        "prefix": "stnmb",
+        "body": [
+            "style:normal:margin_bottom=\"$1\""
+        ],
+        "description": "style:normal:margin_bottom"
+    },
+    "style:normal:margin_top": {
+        "prefix": "stnmt",
+        "body": [
+            "style:normal:margin_top=\"$1\""
+        ],
+        "description": "style:normal:margin_top"
+    },
+    "style:normal:margin": {
+        "prefix": "stnm",
+        "body": [
+            "style:normal:margin=\"$1\""
+        ],
+        "description": "style:normal:margin"
+    },
+    "style:normal:icon": {
+        "prefix": "stni",
+        "body": [
+            "style:normal:icon=\"$1\""
+        ],
+        "description": "style:normal:icon"
+    },
+    "style:normal:icon_at": {
+        "prefix": "stnia",
+        "body": [
+            "style:normal:icon_at=\"$1\""
+        ],
+        "description": "style:normal:icon_at"
+    },
+    "style:normal:bg_image_draw_type": {
+        "prefix": "stnf",
+        "body": [
+            "style:normal:focus=\"$1\""
+        ],
+        "description": "style:normal:focus"
+    },
+    "style:normal:bg_image": {
+        "prefix": "stnbi",
+        "body": [
+            "style:normal:bg_image=\"$1\""
+        ],
+        "description": "style:normal:bg_image"
+    },
+    "style:normal:bg_color": {
+        "prefix": "stnbco",
+        "body": [
+            "style:normal:bg_color=\"$1\""
+        ],
+        "description": "style:normal:bg_color"
+    },
+    "style:normal:text_align_v": {
+        "prefix": "stntav",
+        "body": [
+            "style:normal:text_align_v=\"$1\""
+        ],
+        "description": "style:normal:text_align_v"
+    },
+    "style:normal:text_align_h": {
+        "prefix": "stntah",
+        "body": [
+            "style:normal:text_align_h=\"$1\""
+        ],
+        "description": "style:normal:text_align_h"
+    },
+    "style:normal:text_color": {
+        "prefix": "stntc",
+        "body": [
+            "style:normal:text_color=\"$1\""
+        ],
+        "description": "style:normal:text_color"
+    },
+    "style:normal:round_radius_bottom_right": {
+        "prefix": "stnrrbr",
+        "body": [
+            "style:normal:round_radius_bottom_right=\"$1\""
+        ],
+        "description": "style:normal:round_radius_bottom_right"
+    },
+    "style:normal:round_radius_bottom_left": {
+        "prefix": "stnrrbl",
+        "body": [
+            "style:normal:round_radius_bottom_left=\"$1\""
+        ],
+        "description": "style:normal:round_radius_bottom_left"
+    },
+    "style:normal:round_radius_top_right": {
+        "prefix": "stnrrtr",
+        "body": [
+            "style:normal:round_radius_top_right=\"$1\""
+        ],
+        "description": "style:normal:round_radius_top_right"
+    },
+    "style:normal:round_radius_top_left": {
+        "prefix": "stnrrtl",
+        "body": [
+            "style:normal:round_radius_top_left=\"$1\""
+        ],
+        "description": "style:normal:round_radius_top_left"
+    },
+    "style:normal:round_radius": {
+        "prefix": "stnrr",
+        "body": [
+            "style:normal:round_radius=\"$1\""
+        ],
+        "description": "style:normal:round_radius"
+    },
+    "style:focused:border": {
+        "prefix": "stfb",
+        "body": [
+            "style:focused:border=\"$1\""
+        ],
+        "description": "style:focused:border"
+    },
+    "style:focused:border_color": {
+        "prefix": "stfbc",
+        "body": [
+            "style:focused:border_color=\"$1\""
+        ],
+        "description": "style:focused:border_color"
+    },
+    "style:focused:font_size": {
+        "prefix": "stffs",
+        "body": [
+            "style:focused:font_size=\"$1\""
+        ],
+        "description": "style:focused:font_size"
+    },
+    "style:focused:y_offset": {
+        "prefix": "stfyo",
+        "body": [
+            "style:focused:y_offset=\"$1\""
+        ],
+        "description": "style:focused:y_offset"
+    },
+    "style:focused:x_offset": {
+        "prefix": "stfxo",
+        "body": [
+            "style:focused:x_offset=\"$1\""
+        ],
+        "description": "style:focused:x_offset"
+    },
+    "style:focused:margin_right": {
+        "prefix": "stfmr",
+        "body": [
+            "style:focused:margin_right=\"$1\""
+        ],
+        "description": "style:focused:margin_right"
+    },
+    "style:focused:margin_left": {
+        "prefix": "stfml",
+        "body": [
+            "style:focused:margin_left=\"$1\""
+        ],
+        "description": "style:focused:margin_left"
+    },
+    "style:focused:margin_bottom": {
+        "prefix": "stfmb",
+        "body": [
+            "style:focused:margin_bottom=\"$1\""
+        ],
+        "description": "style:focused:margin_bottom"
+    },
+    "style:focused:margin_top": {
+        "prefix": "stfmt",
+        "body": [
+            "style:focused:margin_top=\"$1\""
+        ],
+        "description": "style:focused:margin_top"
+    },
+    "style:focused:margin": {
+        "prefix": "stfm",
+        "body": [
+            "style:focused:margin=\"$1\""
+        ],
+        "description": "style:focused:margin"
+    },
+    "style:focused:icon": {
+        "prefix": "stfi",
+        "body": [
+            "style:focused:icon=\"$1\""
+        ],
+        "description": "style:focused:icon"
+    },
+    "style:focused:icon_at": {
+        "prefix": "stfia",
+        "body": [
+            "style:focused:icon_at=\"$1\""
+        ],
+        "description": "style:focused:icon_at"
+    },
+    "style:focused:bg_image_draw_type": {
+        "prefix": "stff",
+        "body": [
+            "style:focused:focus=\"$1\""
+        ],
+        "description": "style:focused:focus"
+    },
+    "style:focused:bg_image": {
+        "prefix": "stfbi",
+        "body": [
+            "style:focused:bg_image=\"$1\""
+        ],
+        "description": "style:focused:bg_image"
+    },
+    "style:focused:bg_color": {
+        "prefix": "stfbco",
+        "body": [
+            "style:focused:bg_color=\"$1\""
+        ],
+        "description": "style:focused:bg_color"
+    },
+    "style:focused:text_align_v": {
+        "prefix": "stftav",
+        "body": [
+            "style:focused:text_align_v=\"$1\""
+        ],
+        "description": "style:focused:text_align_v"
+    },
+    "style:focused:text_align_h": {
+        "prefix": "stftah",
+        "body": [
+            "style:focused:text_align_h=\"$1\""
+        ],
+        "description": "style:focused:text_align_h"
+    },
+    "style:focused:text_color": {
+        "prefix": "stftc",
+        "body": [
+            "style:focused:text_color=\"$1\""
+        ],
+        "description": "style:focused:text_color"
+    },
+    "style:focused:round_radius_bottom_right": {
+        "prefix": "stfrrbr",
+        "body": [
+            "style:focused:round_radius_bottom_right=\"$1\""
+        ],
+        "description": "style:focused:round_radius_bottom_right"
+    },
+    "style:focused:round_radius_bottom_left": {
+        "prefix": "stfrrbl",
+        "body": [
+            "style:focused:round_radius_bottom_left=\"$1\""
+        ],
+        "description": "style:focused:round_radius_bottom_left"
+    },
+    "style:focused:round_radius_top_right": {
+        "prefix": "stfrrtr",
+        "body": [
+            "style:focused:round_radius_top_right=\"$1\""
+        ],
+        "description": "style:focused:round_radius_top_right"
+    },
+    "style:focused:round_radius_top_left": {
+        "prefix": "stfrrtl",
+        "body": [
+            "style:focused:round_radius_top_left=\"$1\""
+        ],
+        "description": "style:focused:round_radius_top_left"
+    },
+    "style:focused:round_radius": {
+        "prefix": "stfrr",
+        "body": [
+            "style:focused:round_radius=\"$1\""
+        ],
+        "description": "style:focused:round_radius"
+    },
+    "style:pressed:border": {
+        "prefix": "stpb",
+        "body": [
+            "style:pressed:border=\"$1\""
+        ],
+        "description": "style:pressed:border"
+    },
+    "style:pressed:border_color": {
+        "prefix": "stpbc",
+        "body": [
+            "style:pressed:border_color=\"$1\""
+        ],
+        "description": "style:pressed:border_color"
+    },
+    "style:pressed:font_size": {
+        "prefix": "stpfs",
+        "body": [
+            "style:pressed:font_size=\"$1\""
+        ],
+        "description": "style:pressed:font_size"
+    },
+    "style:pressed:y_offset": {
+        "prefix": "stpyo",
+        "body": [
+            "style:pressed:y_offset=\"$1\""
+        ],
+        "description": "style:pressed:y_offset"
+    },
+    "style:pressed:x_offset": {
+        "prefix": "stpxo",
+        "body": [
+            "style:pressed:x_offset=\"$1\""
+        ],
+        "description": "style:pressed:x_offset"
+    },
+    "style:pressed:margin_right": {
+        "prefix": "stpmr",
+        "body": [
+            "style:pressed:margin_right=\"$1\""
+        ],
+        "description": "style:pressed:margin_right"
+    },
+    "style:pressed:margin_left": {
+        "prefix": "stpml",
+        "body": [
+            "style:pressed:margin_left=\"$1\""
+        ],
+        "description": "style:pressed:margin_left"
+    },
+    "style:pressed:margin_bottom": {
+        "prefix": "stpmb",
+        "body": [
+            "style:pressed:margin_bottom=\"$1\""
+        ],
+        "description": "style:pressed:margin_bottom"
+    },
+    "style:pressed:margin_top": {
+        "prefix": "stpmt",
+        "body": [
+            "style:pressed:margin_top=\"$1\""
+        ],
+        "description": "style:pressed:margin_top"
+    },
+    "style:pressed:margin": {
+        "prefix": "stpm",
+        "body": [
+            "style:pressed:margin=\"$1\""
+        ],
+        "description": "style:pressed:margin"
+    },
+    "style:pressed:icon": {
+        "prefix": "stpi",
+        "body": [
+            "style:pressed:icon=\"$1\""
+        ],
+        "description": "style:pressed:icon"
+    },
+    "style:pressed:icon_at": {
+        "prefix": "stpia",
+        "body": [
+            "style:pressed:icon_at=\"$1\""
+        ],
+        "description": "style:pressed:icon_at"
+    },
+    "style:pressed:bg_image_draw_type": {
+        "prefix": "stpf",
+        "body": [
+            "style:pressed:focus=\"$1\""
+        ],
+        "description": "style:pressed:focus"
+    },
+    "style:pressed:bg_image": {
+        "prefix": "stpbi",
+        "body": [
+            "style:pressed:bg_image=\"$1\""
+        ],
+        "description": "style:pressed:bg_image"
+    },
+    "style:pressed:bg_color": {
+        "prefix": "stpbco",
+        "body": [
+            "style:pressed:bg_color=\"$1\""
+        ],
+        "description": "style:pressed:bg_color"
+    },
+    "style:pressed:text_align_v": {
+        "prefix": "stptav",
+        "body": [
+            "style:pressed:text_align_v=\"$1\""
+        ],
+        "description": "style:pressed:text_align_v"
+    },
+    "style:pressed:text_align_h": {
+        "prefix": "stptah",
+        "body": [
+            "style:pressed:text_align_h=\"$1\""
+        ],
+        "description": "style:pressed:text_align_h"
+    },
+    "style:pressed:text_color": {
+        "prefix": "stptc",
+        "body": [
+            "style:pressed:text_color=\"$1\""
+        ],
+        "description": "style:pressed:text_color"
+    },
+    "style:pressed:round_radius_bottom_right": {
+        "prefix": "stprrbr",
+        "body": [
+            "style:pressed:round_radius_bottom_right=\"$1\""
+        ],
+        "description": "style:pressed:round_radius_bottom_right"
+    },
+    "style:pressed:round_radius_bottom_left": {
+        "prefix": "stprrbl",
+        "body": [
+            "style:pressed:round_radius_bottom_left=\"$1\""
+        ],
+        "description": "style:pressed:round_radius_bottom_left"
+    },
+    "style:pressed:round_radius_top_right": {
+        "prefix": "stprrtr",
+        "body": [
+            "style:pressed:round_radius_top_right=\"$1\""
+        ],
+        "description": "style:pressed:round_radius_top_right"
+    },
+    "style:pressed:round_radius_top_left": {
+        "prefix": "stprrtl",
+        "body": [
+            "style:pressed:round_radius_top_left=\"$1\""
+        ],
+        "description": "style:pressed:round_radius_top_left"
+    },
+    "style:pressed:round_radius": {
+        "prefix": "stprr",
+        "body": [
+            "style:pressed:round_radius=\"$1\""
+        ],
+        "description": "style:pressed:round_radius"
+    },
+    "style:disable:border": {
+        "prefix": "stdb",
+        "body": [
+            "style:disable:border=\"$1\""
+        ],
+        "description": "style:disable:border"
+    },
+    "style:disable:border_color": {
+        "prefix": "stdbc",
+        "body": [
+            "style:disable:border_color=\"$1\""
+        ],
+        "description": "style:disable:border_color"
+    },
+    "style:disable:font_size": {
+        "prefix": "stdfs",
+        "body": [
+            "style:disable:font_size=\"$1\""
+        ],
+        "description": "style:disable:font_size"
+    },
+    "style:disable:y_offset": {
+        "prefix": "stdyo",
+        "body": [
+            "style:disable:y_offset=\"$1\""
+        ],
+        "description": "style:disable:y_offset"
+    },
+    "style:disable:x_offset": {
+        "prefix": "stdxo",
+        "body": [
+            "style:disable:x_offset=\"$1\""
+        ],
+        "description": "style:disable:x_offset"
+    },
+    "style:disable:margin_right": {
+        "prefix": "stdmr",
+        "body": [
+            "style:disable:margin_right=\"$1\""
+        ],
+        "description": "style:disable:margin_right"
+    },
+    "style:disable:margin_left": {
+        "prefix": "stdml",
+        "body": [
+            "style:disable:margin_left=\"$1\""
+        ],
+        "description": "style:disable:margin_left"
+    },
+    "style:disable:margin_bottom": {
+        "prefix": "stdmb",
+        "body": [
+            "style:disable:margin_bottom=\"$1\""
+        ],
+        "description": "style:disable:margin_bottom"
+    },
+    "style:disable:margin_top": {
+        "prefix": "stdmt",
+        "body": [
+            "style:disable:margin_top=\"$1\""
+        ],
+        "description": "style:disable:margin_top"
+    },
+    "style:disable:margin": {
+        "prefix": "stdm",
+        "body": [
+            "style:disable:margin=\"$1\""
+        ],
+        "description": "style:disable:margin"
+    },
+    "style:disable:icon": {
+        "prefix": "stdi",
+        "body": [
+            "style:disable:icon=\"$1\""
+        ],
+        "description": "style:disable:icon"
+    },
+    "style:disable:icon_at": {
+        "prefix": "stdia",
+        "body": [
+            "style:disable:icon_at=\"$1\""
+        ],
+        "description": "style:disable:icon_at"
+    },
+    "style:disable:bg_image_draw_type": {
+        "prefix": "stdf",
+        "body": [
+            "style:disable:focus=\"$1\""
+        ],
+        "description": "style:disable:focus"
+    },
+    "style:disable:bg_image": {
+        "prefix": "stdbi",
+        "body": [
+            "style:disable:bg_image=\"$1\""
+        ],
+        "description": "style:disable:bg_image"
+    },
+    "style:disable:bg_color": {
+        "prefix": "stdbco",
+        "body": [
+            "style:disable:bg_color=\"$1\""
+        ],
+        "description": "style:disable:bg_color"
+    },
+    "style:disable:text_align_v": {
+        "prefix": "stdtav",
+        "body": [
+            "style:disable:text_align_v=\"$1\""
+        ],
+        "description": "style:disable:text_align_v"
+    },
+    "style:disable:text_align_h": {
+        "prefix": "stdtah",
+        "body": [
+            "style:disable:text_align_h=\"$1\""
+        ],
+        "description": "style:disable:text_align_h"
+    },
+    "style:disable:text_color": {
+        "prefix": "stdtc",
+        "body": [
+            "style:disable:text_color=\"$1\""
+        ],
+        "description": "style:disable:text_color"
+    },
+    "style:disable:round_radius_bottom_right": {
+        "prefix": "stdrrbr",
+        "body": [
+            "style:disable:round_radius_bottom_right=\"$1\""
+        ],
+        "description": "style:disable:round_radius_bottom_right"
+    },
+    "style:disable:round_radius_bottom_left": {
+        "prefix": "stdrrbl",
+        "body": [
+            "style:disable:round_radius_bottom_left=\"$1\""
+        ],
+        "description": "style:disable:round_radius_bottom_left"
+    },
+    "style:disable:round_radius_top_right": {
+        "prefix": "stdrrtr",
+        "body": [
+            "style:disable:round_radius_top_right=\"$1\""
+        ],
+        "description": "style:disable:round_radius_top_right"
+    },
+    "style:disable:round_radius_top_left": {
+        "prefix": "stdrrtl",
+        "body": [
+            "style:disable:round_radius_top_left=\"$1\""
+        ],
+        "description": "style:disable:round_radius_top_left"
+    },
+    "style:disable:round_radius": {
+        "prefix": "stdrr",
+        "body": [
+            "style:disable:round_radius=\"$1\""
+        ],
+        "description": "style:disable:round_radius"
+    },
+    "style:over:border": {
+        "prefix": "stob",
+        "body": [
+            "style:over:border=\"$1\""
+        ],
+        "description": "style:over:border"
+    },
+    "style:over:border_color": {
+        "prefix": "stobc",
+        "body": [
+            "style:over:border_color=\"$1\""
+        ],
+        "description": "style:over:border_color"
+    },
+    "style:over:font_size": {
+        "prefix": "stofs",
+        "body": [
+            "style:over:font_size=\"$1\""
+        ],
+        "description": "style:over:font_size"
+    },
+    "style:over:y_offset": {
+        "prefix": "stoyo",
+        "body": [
+            "style:over:y_offset=\"$1\""
+        ],
+        "description": "style:over:y_offset"
+    },
+    "style:over:x_offset": {
+        "prefix": "stoxo",
+        "body": [
+            "style:over:x_offset=\"$1\""
+        ],
+        "description": "style:over:x_offset"
+    },
+    "style:over:margin_right": {
+        "prefix": "stomr",
+        "body": [
+            "style:over:margin_right=\"$1\""
+        ],
+        "description": "style:over:margin_right"
+    },
+    "style:over:margin_left": {
+        "prefix": "stoml",
+        "body": [
+            "style:over:margin_left=\"$1\""
+        ],
+        "description": "style:over:margin_left"
+    },
+    "style:over:margin_bottom": {
+        "prefix": "stomb",
+        "body": [
+            "style:over:margin_bottom=\"$1\""
+        ],
+        "description": "style:over:margin_bottom"
+    },
+    "style:over:margin_top": {
+        "prefix": "stomt",
+        "body": [
+            "style:over:margin_top=\"$1\""
+        ],
+        "description": "style:over:margin_top"
+    },
+    "style:over:margin": {
+        "prefix": "stom",
+        "body": [
+            "style:over:margin=\"$1\""
+        ],
+        "description": "style:over:margin"
+    },
+    "style:over:icon": {
+        "prefix": "stoi",
+        "body": [
+            "style:over:icon=\"$1\""
+        ],
+        "description": "style:over:icon"
+    },
+    "style:over:icon_at": {
+        "prefix": "stoia",
+        "body": [
+            "style:over:icon_at=\"$1\""
+        ],
+        "description": "style:over:icon_at"
+    },
+    "style:over:bg_image_draw_type": {
+        "prefix": "stof",
+        "body": [
+            "style:over:focus=\"$1\""
+        ],
+        "description": "style:over:focus"
+    },
+    "style:over:bg_image": {
+        "prefix": "stobi",
+        "body": [
+            "style:over:bg_image=\"$1\""
+        ],
+        "description": "style:over:bg_image"
+    },
+    "style:over:bg_color": {
+        "prefix": "stobco",
+        "body": [
+            "style:over:bg_color=\"$1\""
+        ],
+        "description": "style:over:bg_color"
+    },
+    "style:over:text_align_v": {
+        "prefix": "stotav",
+        "body": [
+            "style:over:text_align_v=\"$1\""
+        ],
+        "description": "style:over:text_align_v"
+    },
+    "style:over:text_align_h": {
+        "prefix": "stotah",
+        "body": [
+            "style:over:text_align_h=\"$1\""
+        ],
+        "description": "style:over:text_align_h"
+    },
+    "style:over:text_color": {
+        "prefix": "stotc",
+        "body": [
+            "style:over:text_color=\"$1\""
+        ],
+        "description": "style:over:text_color"
+    },
+    "style:over:round_radius_bottom_right": {
+        "prefix": "storrbr",
+        "body": [
+            "style:over:round_radius_bottom_right=\"$1\""
+        ],
+        "description": "style:over:round_radius_bottom_right"
+    },
+    "style:over:round_radius_bottom_left": {
+        "prefix": "storrbl",
+        "body": [
+            "style:over:round_radius_bottom_left=\"$1\""
+        ],
+        "description": "style:over:round_radius_bottom_left"
+    },
+    "style:over:round_radius_top_right": {
+        "prefix": "storrtr",
+        "body": [
+            "style:over:round_radius_top_right=\"$1\""
+        ],
+        "description": "style:over:round_radius_top_right"
+    },
+    "style:over:round_radius_top_left": {
+        "prefix": "storrtl",
+        "body": [
+            "style:over:round_radius_top_left=\"$1\""
+        ],
+        "description": "style:over:round_radius_top_left"
+    },
+    "style:over:round_radius": {
+        "prefix": "storr",
+        "body": [
+            "style:over:round_radius=\"$1\""
+        ],
+        "description": "style:over:round_radius"
+    },
+    "v-on:click": {
+        "prefix": "voc",
+        "body": [
+            "v-on:click=\"{$1}\""
+        ],
+        "description": "v-on:click"
+    },
+    "v-on:blur": {
+        "prefix": "vob",
+        "body": [
+            "v-on:blur=\"{$1}\""
+        ],
+        "description": "v-on:blur"
+    },
+    "v-on:focus": {
+        "prefix": "vof",
+        "body": [
+            "v-on:focus=\"{$1}\""
+        ],
+        "description": "v-on:focus"
+    },
+    "v-on:global_key_down": {
+        "prefix": "vogkd",
+        "body": [
+            "v-on:global_key_down=\"{$1}\""
+        ],
+        "description": "v-on:global_key_down"
+    },
+    "v-on:global_key_down:cancel": {
+        "prefix": "vogkdc",
+        "body": [
+            "v-on:global_key_down:cancel=\"{$1}\""
+        ],
+        "description": "v-on:global_key_down:cancel"
+    },
+    "v-on:global_key_down:return": {
+        "prefix": "vogkdr",
+        "body": [
+            "v-on:global_key_down:return=\"{$1}\""
+        ],
+        "description": "v-on:global_key_down:return"
+    },
+    "v-on:global_key_up": {
+        "prefix": "vogku",
+        "body": [
+            "v-on:global_key_up=\"{$1}\""
+        ],
+        "description": "v-on:global_key_up"
+    },
+    "v-on:global_key_up:cancel": {
+        "prefix": "vogkuc",
+        "body": [
+            "v-on:global_key_up:cancel=\"{$1}\""
+        ],
+        "description": "v-on:global_key_up:cancel"
+    },
+    "v-on:global_key_up:return": {
+        "prefix": "vogkur",
+        "body": [
+            "v-on:global_key_up:return=\"{$1}\""
+        ],
+        "description": "v-on:global_key_up:return"
+    },
+    "v-on:key_down": {
+        "prefix": "vodkd",
+        "body": [
+            "v-on:key_down=\"{$1}\""
+        ],
+        "description": "v-on:key_down"
+    },
+    "v-on:key_down:cancel": {
+        "prefix": "vodkdc",
+        "body": [
+            "v-on:key_down:cancel=\"{$1}\""
+        ],
+        "description": "v-on:key_down:cancel"
+    },
+    "v-on:key_down:return": {
+        "prefix": "vokdr",
+        "body": [
+            "v-on:key_down:return=\"{$1}\""
+        ],
+        "description": "v-on:key_down:return"
+    },
+    "v-on:key_up": {
+        "prefix": "vodku",
+        "body": [
+            "v-on:key_up=\"{$1}\""
+        ],
+        "description": "v-on:key_up"
+    },
+    "v-on:key_up:cancel": {
+        "prefix": "vodkuc",
+        "body": [
+            "v-on:key_up:cancel=\"{$1}\""
+        ],
+        "description": "v-on:key_up:cancel"
+    },
+    "v-on:key_up:return": {
+        "prefix": "vokur",
+        "body": [
+            "v-on:key_up:return=\"{$1}\""
+        ],
+        "description": "v-on:key_up:return"
+    },
+    "v-on:pointer_down": {
+        "prefix": "vopd",
+        "body": [
+            "v-on:pointer_down=\"{$1}\""
+        ],
+        "description": "v-on:pointer_down"
+    },
+    "v-on:pointer_down_before_chlidren": {
+        "prefix": "vopdbc",
+        "body": [
+            "v-on:pointer_down_before_chlidren=\"{$1}\""
+        ],
+        "description": "v-on:pointer_down_before_chlidren"
+    },
+    "v-on:pointer_up_before_chlidren": {
+        "prefix": "vopubc",
+        "body": [
+            "v-on:pointer_up_before_chlidren=\"{$1}\""
+        ],
+        "description": "v-on:pointer_up_before_chlidren"
+    },
+    "v-on:pointer_move_before_chlidren": {
+        "prefix": "vopmbc",
+        "body": [
+            "v-on:pointer_move_before_chlidren=\"{$1}\""
+        ],
+        "description": "v-on:pointer_move_before_chlidren"
+    },
+    "v-on:pointer_enter": {
+        "prefix": "vope",
+        "body": [
+            "v-on:pointer_enter=\"{$1}\""
+        ],
+        "description": "v-on:pointer_enter"
+    },
+    "v-on:pointer_move": {
+        "prefix": "vopm",
+        "body": [
+            "v-on:pointer_move=\"{$1}\""
+        ],
+        "description": "v-on:pointer_move"
+    },
+    "v-on:pointer_leave": {
+        "prefix": "vopl",
+        "body": [
+            "v-on:pointer_leave=\"{$1}\""
+        ],
+        "description": "v-on:pointer_leave"
+    },
+    "v-on:long_press": {
+        "prefix": "volp",
+        "body": [
+            "v-on:long_press=\"{$1}\""
+        ],
+        "description": "v-on:long_press"
+    },
+    "v-on:key_long_press": {
+        "prefix": "voklp",
+        "body": [
+            "v-on:key_long_press=\"{$1}\""
+        ],
+        "description": "v-on:key_long_press"
+    },
+    "v-on:pointer_up": {
+        "prefix": "voup",
+        "body": [
+            "v-on:pointer_up=\"{$1}\""
+        ],
+        "description": "v-on:pointer_up"
+    },
+    "v-on:window_to_foreground": {
+        "prefix": "vowtf",
+        "body": [
+            "v-on:window_to_foreground=\"{$1}\""
+        ],
+        "description": "v-on:window_to_foreground"
+    },
+    "v-on:key_down:0": {
+        "prefix": "vokd0",
+        "body": [
+            "v-on:key_down:0=\"{$1}\""
+        ],
+        "description": "v-on:key_down:0"
+    },
+    "v-on:key_down:1": {
+        "prefix": "vokd1",
+        "body": [
+            "v-on:key_down:1=\"{$1}\""
+        ],
+        "description": "v-on:key_down:1"
+    },
+    "v-on:key_down:2": {
+        "prefix": "vokd2",
+        "body": [
+            "v-on:key_down:2=\"{$1}\""
+        ],
+        "description": "v-on:key_down:2"
+    },
+    "v-on:key_down:3": {
+        "prefix": "vokd3",
+        "body": [
+            "v-on:key_down:3=\"{$1}\""
+        ],
+        "description": "v-on:key_down:3"
+    },
+    "v-on:key_down:4": {
+        "prefix": "vokd4",
+        "body": [
+            "v-on:key_down:4=\"{$1}\""
+        ],
+        "description": "v-on:key_down:4"
+    },
+    "v-on:key_down:5": {
+        "prefix": "vokd5",
+        "body": [
+            "v-on:key_down:5=\"{$1}\""
+        ],
+        "description": "v-on:key_down:5"
+    },
+    "v-on:key_down:6": {
+        "prefix": "vokd6",
+        "body": [
+            "v-on:key_down:6=\"{$1}\""
+        ],
+        "description": "v-on:key_down:6"
+    },
+    "v-on:key_down:7": {
+        "prefix": "vokd7",
+        "body": [
+            "v-on:key_down:7=\"{$1}\""
+        ],
+        "description": "v-on:key_down:7"
+    },
+    "v-on:key_down:8": {
+        "prefix": "vokd8",
+        "body": [
+            "v-on:key_down:8=\"{$1}\""
+        ],
+        "description": "v-on:key_down:8"
+    },
+    "v-on:key_down:9": {
+        "prefix": "vokd9",
+        "body": [
+            "v-on:key_down:9=\"{$1}\""
+        ],
+        "description": "v-on:key_down:9"
+    },
+    "v-on:key_down:delete": {
+        "prefix": "vokdd",
+        "body": [
+            "v-on:key_down:delete=\"{$1}\""
+        ],
+        "description": "v-on:key_down:delete"
+    },
+    "v-on:key_up:0": {
+        "prefix": "voku0",
+        "body": [
+            "v-on:key_up:0=\"{$1}\""
+        ],
+        "description": "v-on:key_up:0"
+    },
+    "v-on:key_up:1": {
+        "prefix": "voku1",
+        "body": [
+            "v-on:key_up:1=\"{$1}\""
+        ],
+        "description": "v-on:key_up:1"
+    },
+    "v-on:key_up:2": {
+        "prefix": "voku2",
+        "body": [
+            "v-on:key_up:2=\"{$1}\""
+        ],
+        "description": "v-on:key_up:2"
+    },
+    "v-on:key_up:3": {
+        "prefix": "voku3",
+        "body": [
+            "v-on:key_up:3=\"{$1}\""
+        ],
+        "description": "v-on:key_up:3"
+    },
+    "v-on:key_up:4": {
+        "prefix": "voku4",
+        "body": [
+            "v-on:key_up:4=\"{$1}\""
+        ],
+        "description": "v-on:key_up:4"
+    },
+    "v-on:key_up:5": {
+        "prefix": "voku5",
+        "body": [
+            "v-on:key_up:5=\"{$1}\""
+        ],
+        "description": "v-on:key_up:5"
+    },
+    "v-on:key_up:6": {
+        "prefix": "voku6",
+        "body": [
+            "v-on:key_up:6=\"{$1}\""
+        ],
+        "description": "v-on:key_up:6"
+    },
+    "v-on:key_up:7": {
+        "prefix": "voku7",
+        "body": [
+            "v-on:key_up:7=\"{$1}\""
+        ],
+        "description": "v-on:key_up:7"
+    },
+    "v-on:key_up:8": {
+        "prefix": "voku8",
+        "body": [
+            "v-on:key_up:8=\"{$1}\""
+        ],
+        "description": "v-on:key_up:8"
+    },
+    "v-on:key_up:9": {
+        "prefix": "voku9",
+        "body": [
+            "v-on:key_up:9=\"{$1}\""
+        ],
+        "description": "v-on:key_up:9"
+    },
+    "v-on:key_up:delete": {
+        "prefix": "vokud",
+        "body": [
+            "v-on:key_up:delete=\"{$1}\""
+        ],
+        "description": "v-on:key_up:delete"
+    },
+    "v-on:key_up:F12": {
+        "prefix": "vokuF12",
+        "body": [
+            "v-on:key_up:F12=\"{$1}\""
+        ],
+        "description": "v-on:key_up:F12"
+    },
+    "v-on:key_down:F12": {
+        "prefix": "vokdF12",
+        "body": [
+            "v-on:key_down:F12=\"{$1}\""
+        ],
+        "description": "[power key] v-on:key_down:F12"
+    },
+    "v-data:x": {
+        "prefix": "vdx",
+        "body": [
+            "v-data:x=\"{$1}\""
+        ],
+        "description": "v-data:x"
+    },
+    "v-data:y": {
+        "prefix": "vdy",
+        "body": [
+            "v-data:y=\"{$1}\""
+        ],
+        "description": "v-data:y"
+    },
+    "v-data:w": {
+        "prefix": "vdw",
+        "body": [
+            "v-data:w=\"{$1}\""
+        ],
+        "description": "v-data:w"
+    },
+    "v-data:h": {
+        "prefix": "vdh",
+        "body": [
+            "v-data:h=\"{$1}\""
+        ],
+        "description": "v-data:h"
+    },
+    "v-data:focusable": {
+        "prefix": "vdfa",
+        "body": [
+            "v-data:focusable=\"{$1}\""
+        ],
+        "description": "v-data:focusable"
+    },
+    "v-data:focused": {
+        "prefix": "vdfd",
+        "body": [
+            "v-data:focused=\"{$1}\""
+        ],
+        "description": "v-data:focused"
+    },
+    "v-data:text": {
+        "prefix": "vdt",
+        "body": [
+            "v-data:text=\"{$1}\""
+        ],
+        "description": "v-data:text"
+    },
+    "v-data:image": {
+        "prefix": "vdi",
+        "body": [
+            "v-data:image=\"{$1}\""
+        ],
+        "description": "v-data:image"
+    },
+    "v-data:visible": {
+        "prefix": "vdvs",
+        "body": [
+            "v-data:visible=\"{$1}\""
+        ],
+        "description": "v-data:visible"
+    },
+    "v-data:value": {
+        "prefix": "vdv",
+        "body": [
+            "v-data:value=\"{$1}\""
+        ],
+        "description": "v-data:value"
+    },
+    "v-data:style:normal:": {
+        "prefix": "vdstn",
+        "body": [
+            "v-data:v-data:style:normal:$1=\"{$2}\""
+        ],
+        "description": "v-data:style:normal:[style name]"
+    },
+    "v-data:style:pressed:": {
+        "prefix": "vdstp",
+        "body": [
+            "v-data:v-data:style:pressed:$1=\"{$2}\""
+        ],
+        "description": "v-data:style:pressed:[style name]"
+    },
+    "v-data:style:over:": {
+        "prefix": "vdsto",
+        "body": [
+            "v-data:v-data:style:over:$1=\"{$2}\""
+        ],
+        "description": "v-data:style:over:[style name]"
+    },
+    "v-data:style:disable:": {
+        "prefix": "vdstd",
+        "body": [
+            "v-data:v-data:style:disable:$1=\"{$2}\""
+        ],
+        "description": "v-data:style:disable:[style name]"
+    },
+    "v-data:style:focused:": {
+        "prefix": "vdstf",
+        "body": [
+            "v-data:v-data:style:focused:$1=\"{$2}\""
+        ],
+        "description": "v-data:style:focused:[style name]"
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "java-pos-xml",
+  "displayName": "cd-xml-extension",
+  "description": "xml extension for java-pos",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "xml",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  },
+  "publisher": "dywade"
+}
